@@ -50,19 +50,11 @@ def RevPyramid(n):
             print("* ", end="")        
         print()
 
-n = int(input("Enter a number "))
+n = 7
 print("What pattern do you wish to print")
-choice=int(input("1.Triangle 2.Opp.Traingle 3.Sqaure 4.Pyramid 5. Reverse "))
 
-if choice ==1:
-    Triangle(n)
-elif choice==2:
-    RevTriangle(n)
-elif choice==3:
-    Square(n)
-elif choice ==4:
-    Pyramid(n)
-elif choice==5:
-    RevPyramid(n)
-else:
-    print("Invalid choice")
+Triangle(n)
+RevTriangle(n)
+Square(n)
+Pyramid(n)
+RevPyramid(n)
